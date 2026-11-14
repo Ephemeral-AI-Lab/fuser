@@ -6,6 +6,8 @@
 * Add an observable session runner with all-receiver startup tracking and
   complete join results after partial startup, receive failure or panic.
   Mount and connection disposition remain with the caller.
+* Size receiver buffers from the negotiated maximum write size instead of
+  allocating the protocol maximum for every receiver.
 
 ## 0.18.0 - 2026-07-22
 * Remove deprecated feature flags `abi-*`
