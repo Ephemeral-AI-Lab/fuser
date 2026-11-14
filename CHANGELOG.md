@@ -1,5 +1,9 @@
 # FUSE for Rust - Changelog
 
+## Unreleased
+
+* Fix pre-epoch fractional timestamp conversion and signed-minimum overflow.
+
 ## 0.18.0 - 2026-07-22
 * Remove deprecated feature flags `abi-*`
 * Rename `mount2()` to `mount()`
